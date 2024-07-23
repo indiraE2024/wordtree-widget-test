@@ -1,0 +1,32 @@
+#root {
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.chart-container,
+.chart-container02 {
+  padding: 10px;
+  border-radius: 25px;
+  box-shadow: 0 0 0px rgba(0, 0, 0, 0.3);
+  margin: auto;
+  text-align: center;
+  /* height: 100vh; */
+  /* width: 100%; */
+  background-color: white;
+  max-height: 800px;
+  flex-direction: column; /* Stack vertically */
+}
+
+/* .chart-container {
+  background-color: white;
+} */
+
+/* .chart-container02 {
+  background-color: steelblue;
+  color: white;
+} */
+
+/* chart {
+  color: white;
+} */
