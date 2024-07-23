@@ -15,7 +15,7 @@ export const data = [
 export const options = {
   // colors: ["steelblue", "purple", "green"],
   // width: "100%",
-  maxFontSize: 20,
+  maxFontSize: 25,
   responsive: true,
   wordtree: {
     format: "implicit",
