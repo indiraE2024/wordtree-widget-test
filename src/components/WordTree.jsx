@@ -17,11 +17,16 @@ export const options = {
   // colors: ["steelblue", "purple", "green"],
   width: "100%",
   maxFontSize: 20,
-  responsive: true,
+  wordStyle: {
+    colors: "blue",
+    fontSize: 30,
+    bold: true, // true or false
+    // responsive: true,
+  },
   wordtree: {
     format: "implicit",
     type: "double",
-    word: "feeling",
+    word: "feel",
   },
 };
 
