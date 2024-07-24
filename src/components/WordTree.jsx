@@ -1,6 +1,7 @@
 import React from "react";
 import { Chart } from "react-google-charts";
 import "./WordTree.css";
+
 // const { JSDOM } = require("jsdom");
 // const { window } = new JSDOM("");
 // const $ = require("jquery")(window);
@@ -14,8 +15,8 @@ export const data = [
 
 export const options = {
   // colors: ["steelblue", "purple", "green"],
-  // width: "100%",
-  maxFontSize: 25,
+  width: "100%",
+  maxFontSize: 20,
   responsive: true,
   wordtree: {
     format: "implicit",
@@ -26,7 +27,7 @@ export const options = {
 
 export function WordTree() {
   return (
-    <div class="chart-container">
+    <div className="chart-container mx-auto">
       <Chart
         chartType="WordTree"
         // maxWidth="900px"
@@ -38,8 +39,5 @@ export function WordTree() {
     </div>
   );
 }
-// $(window).resize(function () {
-//   WordTree();
-// });
 
 export default WordTree;
