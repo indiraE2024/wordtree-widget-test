@@ -127,7 +127,6 @@ export default WordTree;
 You can customise the WordTree widget by modifying the data and options objects. For example, to change the root word of the WordTree:
 
 ```jsx
-Copy code
 export const options = {
   ...,
   wordtree: {
